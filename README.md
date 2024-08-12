@@ -1,14 +1,25 @@
----
-name: HTML Starter
-slug: html-starter-with-analytics
-description: HTML5 template with analytics and advanced routing configuration.
-deployUrl: https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/html&project-name=html
-relatedTemplates:
-  - nextjs-boilerplate
----
+# DIClub-SRMVDP
 
-# HTML Starter
+Official repo for DIClub-SRMVDP Website 2024
 
-This is a starter HTML5 templates which is configured with Vercel Analytics (through a `script` tag), advanced routing with [Vercel Edge Middleware](https://vercel.com/docs/concepts/functions/edge-middleware), as well as some basic styles
+# To Contribute:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/html&project-name=html)
+1. Fork the repository
+2. Clone the repository
+3. Create a new branch
+4. Make necessary changes and commit those changes
+5. Push changes to GitHub
+6. Create a pull request to the main repository from your branch.
+
+# How to run the website on your local machine:
+
+1. Clone the repository
+2. Open the terminal and navigate to the project directory
+3. Run the following command to install the required dependencies:
+```
+npm install
+```
+4. Run the following command to start the development server:
+```
+npm run dev
+```
