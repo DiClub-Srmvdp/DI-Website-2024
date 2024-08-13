@@ -1,15 +1,15 @@
 import React from "react";
 
-import inauguralImage from "../assets/img/journey/club-inaguration.jpg";
-import juvenileImage from "../assets/img/journey/juvenile-designers.jpg";
-import duiImage from "../assets/img/journey/dui.jpg";
-import flutterImage from "../assets/img/journey/flutter.jpg";
-import d2Image from "../assets/img/journey/d2.jpg";
-import aiwImage from "../assets/img/journey/aiw.jpg";
-import digitalesImage from "../assets/img/journey/digitales.jpg";
-import fullStackImage from "../assets/img/journey/FullStackPoster Web Dev.png";
-import hackfestImage from "../assets/img/journey/HackFest-Poster.jpg";
-import hackfest2Image from "../assets/img/journey/Hackfest 2.0.jpg";
+import inauguralImage from "/assets/img/journey/club-inaguration.jpg";
+import juvenileImage from "/assets/img/journey/juvenile-designers.jpg";
+import duiImage from "/assets/img/journey/dui.jpg";
+import flutterImage from "/assets/img/journey/flutter.jpg";
+import d2Image from "/assets/img/journey/d2.jpg";
+import aiwImage from "/assets/img/journey/aiw.jpg";
+import digitalesImage from "/assets/img/journey/digitales.jpg";
+import fullStackImage from "/assets/img/journey/FullStackPoster Web Dev.png";
+import hackfestImage from "/assets/img/journey/HackFest-Poster.jpg";
+import hackfest2Image from "/assets/img/journey/Hackfest 2.0.jpg";
 
 const journeyData = [
   {

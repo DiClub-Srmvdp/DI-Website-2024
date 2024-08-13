@@ -37,7 +37,7 @@ export default function HomePage() {
               </div>
             </div>
             <div className="col-12 col-lg-4 p-0">
-              <img className="img-fluid about-img" src="./src/assets/img/about-event.jpg" />
+              <img className="img-fluid about-img" src="/assets/img/about-event.jpg" />
             </div>
           </div>
         </div>

@@ -3,13 +3,13 @@ import React from "react";
 export default function ProjectsPage() {
   const projects = [
     {
-      image: "./src/assets/img/projects/gpawiz.png",
+      image: "/assets/img/projects/gpawiz.png",
       link: "https://virajp4.me/GPA-Wiz",
       title: "GPA-Wiz",
       description: "A website that helps the students of SRM IST to calculate their GPA.",
     },
     {
-      image: "./src/assets/img/projects/flappy.jpg",
+      image: "/assets/img/projects/flappy.jpg",
       link: "https://lalithabishekg.github.io/flying-shuttle/",
       title: "Flying Shuttle",
       description: "A simple flappy bird like game, made using HTML,CSS and JavaScript.",

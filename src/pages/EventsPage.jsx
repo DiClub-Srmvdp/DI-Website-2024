@@ -22,12 +22,12 @@ export default function EventsPage() {
                   <div className="carousel-inner">
                     <div
                       className="carousel-item di-carousel-item active"
-                      style={{ backgroundImage: "url('./src/assets/img/events/buildabot/0.png')" }}
+                      style={{ backgroundImage: "url('/assets/img/events/buildabot/0.png')" }}
                     ></div>
-                    <div className="carousel-item di-carousel-item" style={{ backgroundImage: "url('./src/assets/img/events/buildabot/2.png')" }}></div>
-                    <div className="carousel-item di-carousel-item" style={{ backgroundImage: "url('./src/assets/img/events/buildabot/3.png')" }}></div>
-                    <div className="carousel-item di-carousel-item" style={{ backgroundImage: "url('./src/assets/img/events/buildabot/4.png')" }}></div>
-                    <div className="carousel-item di-carousel-item" style={{ backgroundImage: "url('./src/assets/img/events/buildabot/5.png')" }}></div>
+                    <div className="carousel-item di-carousel-item" style={{ backgroundImage: "url('/assets/img/events/buildabot/2.png')" }}></div>
+                    <div className="carousel-item di-carousel-item" style={{ backgroundImage: "url('/assets/img/events/buildabot/3.png')" }}></div>
+                    <div className="carousel-item di-carousel-item" style={{ backgroundImage: "url('/assets/img/events/buildabot/4.png')" }}></div>
+                    <div className="carousel-item di-carousel-item" style={{ backgroundImage: "url('/assets/img/events/buildabot/5.png')" }}></div>
                   </div>
                   <button className="carousel-control-prev" type="button" data-bs-target="#carouselEvent1" data-bs-slide="prev">
                     <i className="fa-regular fa-hand-point-left di-carousel-icon"></i>
@@ -58,10 +58,10 @@ export default function EventsPage() {
                 </div>
                 <div id="carouselEvent2" className="carousel slide p-3" data-bs-ride="carousel">
                   <div className="carousel-inner">
-                    <div className="carousel-item di-carousel-item active" style={{ backgroundImage: "url('./src/assets/img/events/webdev/5.png')" }}></div>
-                    <div className="carousel-item di-carousel-item" style={{ backgroundImage: "url('./src/assets/img/events/webdev/1.png')" }}></div>
-                    <div className="carousel-item di-carousel-item" style={{ backgroundImage: "url('./src/assets/img/events/webdev/2.png')" }}></div>
-                    <div className="carousel-item di-carousel-item" style={{ backgroundImage: "url('./src/assets/img/events/webdev/4.png')" }}></div>
+                    <div className="carousel-item di-carousel-item active" style={{ backgroundImage: "url('/assets/img/events/webdev/5.png')" }}></div>
+                    <div className="carousel-item di-carousel-item" style={{ backgroundImage: "url('/assets/img/events/webdev/1.png')" }}></div>
+                    <div className="carousel-item di-carousel-item" style={{ backgroundImage: "url('/assets/img/events/webdev/2.png')" }}></div>
+                    <div className="carousel-item di-carousel-item" style={{ backgroundImage: "url('/assets/img/events/webdev/4.png')" }}></div>
                   </div>
                   <button className="carousel-control-prev" type="button" data-bs-target="#carouselEvent2" data-bs-slide="prev">
                     <i className="fa-regular fa-hand-point-left di-carousel-icon"></i>
@@ -103,31 +103,31 @@ export default function EventsPage() {
                   <div className="carousel-inner">
                     <div
                       className="carousel-item di-carousel-item active"
-                      style={{ backgroundImage: "url('./src/assets/img/events/hackfest/Hackfest1.JPG')" }}
+                      style={{ backgroundImage: "url('/assets/img/events/hackfest/Hackfest1.JPG')" }}
                     ></div>
                     <div
                       className="carousel-item di-carousel-item"
-                      style={{ backgroundImage: "url('./src/assets/img/events/hackfest/Hackfest2.JPG')" }}
+                      style={{ backgroundImage: "url('/assets/img/events/hackfest/Hackfest2.JPG')" }}
                     ></div>
                     <div
                       className="carousel-item di-carousel-item"
-                      style={{ backgroundImage: "url('./src/assets/img/events/hackfest/Hackfest3.JPG')" }}
+                      style={{ backgroundImage: "url('/assets/img/events/hackfest/Hackfest3.JPG')" }}
                     ></div>
                     <div
                       className="carousel-item di-carousel-item"
-                      style={{ backgroundImage: "url('./src/assets/img/events/hackfest/Hackfest4.JPG')" }}
+                      style={{ backgroundImage: "url('/assets/img/events/hackfest/Hackfest4.JPG')" }}
                     ></div>
                     <div
                       className="carousel-item di-carousel-item"
-                      style={{ backgroundImage: "url('./src/assets/img/events/hackfest/Hackfest5.JPG')" }}
+                      style={{ backgroundImage: "url('/assets/img/events/hackfest/Hackfest5.JPG')" }}
                     ></div>
                     <div
                       className="carousel-item di-carousel-item"
-                      style={{ backgroundImage: "url('./src/assets/img/events/hackfest/Hackfest6.JPG')" }}
+                      style={{ backgroundImage: "url('/assets/img/events/hackfest/Hackfest6.JPG')" }}
                     ></div>
                     <div
                       className="carousel-item di-carousel-item"
-                      style={{ backgroundImage: "url('./src/assets/img/events/hackfest/Hackfest7.JPG')" }}
+                      style={{ backgroundImage: "url('/assets/img/events/hackfest/Hackfest7.JPG')" }}
                     ></div>
                   </div>
                   <button className="carousel-control-prev" type="button" data-bs-target="#carouselEvent3" data-bs-slide="prev">
@@ -158,7 +158,7 @@ export default function EventsPage() {
                   <div className="carousel-inner">
                     <div
                       className="carousel-item di-carousel-item active"
-                      style={{ backgroundImage: "url('./src/assets/img/events/codeathon.jpg')" }}
+                      style={{ backgroundImage: "url('/assets/img/events/codeathon.jpg')" }}
                     ></div>
                   </div>
                   <button className="carousel-control-prev" type="button" data-bs-target="#carouselEvent4" data-bs-slide="prev">

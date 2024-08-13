@@ -37,7 +37,7 @@ function DesktopNavbar() {
             <NavItem href="/team" label="Team" />
           </ul>
         </div>
-        <NavBrand logoSrc="./src/assets/img/di-logo.png" width="96px" />
+        <NavBrand logoSrc="/assets/img/di-logo.png" width="96px" />
         <div className="collapse navbar-collapse mx-auto">
           <ul className="navbar-nav mx-auto">
             <NavItem href="/projects" label="Projects" />
