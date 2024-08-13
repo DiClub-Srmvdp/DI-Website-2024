@@ -1,0 +1,9 @@
+.di-carousel-item{
+    height: 480px;
+    background-position: center;
+    background-size: cover;
+}
+
+.di-carousel-icon{
+    font-size: 2rem;
+}

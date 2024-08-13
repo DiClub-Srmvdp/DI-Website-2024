@@ -1,0 +1,106 @@
+.projects-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-title {
+    width: 90%;
+
+}
+
+.projects-title h1 {
+    font-size: 4rem;
+    font-weight: 400;
+    animation: events-heading-anime 1.5s infinite;
+}
+
+.projects-title h1 span:first-child {
+    color: #f15b5c;
+}
+
+.projects-title p {
+    font-size: 1.5rem;
+}
+
+.projects {
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+.projects-btn {
+    background: rgb(250, 207, 90);
+    background: linear-gradient(120deg, rgba(250, 207, 90, 1) 0%, rgba(78, 156, 165, 1) 46%, rgba(241, 91, 92, 1) 82%);
+    border: 0;
+    border-radius: 16px;
+    transition: 0.3s;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 12px 32px;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+}
+
+.projects-btn:hover,
+.projects-btn:active,
+.projects-btn:focus {
+    scale: 1.1;
+    box-shadow: 0 0 32px 2px rgba(0, 180, 255, 0.9);
+}
+
+.projects-card {
+    min-height: fit-content;
+    justify-content: center;
+    padding: 1%;
+    background-color: #090909;
+    color: white;
+    margin-bottom: 5rem;
+    background-color: #000;
+    border: 2px solid transparent;
+    -webkit-box-shadow: inset 20px 0px 64px 30px rgb(0, 16, 26);
+    -moz-box-shadow: inset 20px 0px 64px 30px rgba(0, 16, 26, 0.9);
+    box-shadow: inset 20px 0px 64px 30px rgba(0, 16, 26, 0.9);
+    scale: 1;
+    transition: 0.2s;
+}
+
+.projects-card:hover,
+.projects-card:active,
+.projects-card:focus {
+    scale: 1.05;
+    border: 2px solid rgba(0, 180, 255, 0.7);
+}
+
+.projects-card-title {
+    line-height: 32px;
+    font-size: 1.9rem;
+    font-weight: 400;
+    text-underline-offset: 8px;
+    text-align: center;
+}
+
+.project-title {
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+}
+
+.project-title:hover,
+.project-title:active,
+.project-title:focus {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.projects-card-body {
+    height: fit-content;
+}
+
+.projects-card-text {
+    margin-top: 35px;
+    font-size: 1.1rem;
+    line-height: 30px;
+}

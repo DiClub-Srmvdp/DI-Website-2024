@@ -1,0 +1,217 @@
+.journey-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.journey-title {
+    width: 90%;
+    text-align: center;
+}
+
+.journey-title h1{
+    font-size: 4rem;
+    font-weight: 400;
+    animation: events-heading-anime 1.5s infinite;
+}
+.journey-title h1 span:first-child {
+    color: #f15b5c;
+}
+
+.journey-title p {
+    font-size: 1.5rem;
+}
+
+.journey-body {
+    width: 90%;
+}
+
+.journey-imagebox {
+
+}
+
+.journey-name h2{
+    color: #4e9ca5;
+    font-weight: 500;
+}
+
+.journey-name h5{
+    color: #facf5a;
+    font-size: 1.5rem;
+}
+
+.journey-name a{
+    text-decoration: none;
+}
+
+.journey-position {
+    font-size: 1.1rem;
+    padding: 16px;
+}
+
+.journey-imagebox img {
+    height: 100%;
+    max-height: 360px;
+}
+
+.journey-events h5{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+.journey-events p{
+    font-size: 1.1rem;
+}
+
+.journey-line{
+    position:relative;
+    height: 100%;
+}
+
+.journey-line.journey-line-start:before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 100%;
+    right: 0;
+    bottom: 100%;
+    background: radial-gradient(ellipse at 50% 150%, rgba(0, 180, 255, 0.9) 0, rgba(0, 180, 255, 0) 90%);
+    height: 100%;
+    width: 2px;
+}
+
+.journey-line.journey-line-start.mobile:before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: 100%;
+    background: radial-gradient(ellipse at 50% 150%, rgba(0, 180, 255, 0.9) 0, rgba(0, 180, 255, 0) 90%);
+    height: 100%;
+    width: 2px;
+}
+
+.journey-line.journey-line-middle.right:before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: -1.5rem;
+    right: 0;
+    bottom: 100%;
+    background: radial-gradient(ellipse at 50% 150%, rgba(0, 180, 255, 0.4) 0, rgba(0, 180, 255, 0.4) 90%);
+    height: 100%;
+    width: 2px;
+}
+
+.journey-line.journey-line-middle.right.mobile:before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: 100%;
+    background: radial-gradient(ellipse at 50% 150%, rgba(0, 180, 255, 0.4) 0, rgba(0, 180, 255, 0.4) 90%);
+    height: 100%;
+    width: 2px;
+}
+
+.journey-line.journey-line-middle.left:before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 100%;
+    right: 0;
+    bottom: 100%;
+    background: radial-gradient(ellipse at 50% 150%, rgba(0, 180, 255, 0.4) 0, rgba(0, 180, 255, 0.4) 90%);
+    height: 100%;
+    width: 2px;
+}
+
+.journey-line.journey-line-middle.left.mobile:before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: 100%;
+    background: radial-gradient(ellipse at 50% 150%, rgba(0, 180, 255, 0.4) 0, rgba(0, 180, 255, 0.4) 90%);
+    height: 100%;
+    width: 2px;
+}
+
+.journey-line.journey-line-end.right:before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: -1.5rem;
+    right: 0;
+    bottom: 100%;
+    background: radial-gradient(ellipse at 50% 150%, rgba(0, 180, 255, 0) 0, rgba(0, 180, 255, 0.4) 90%);
+    height: 100%;
+    width: 2px;
+}
+
+.journey-line.journey-line-end.right.mobile:before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: 100%;
+    background: radial-gradient(ellipse at 50% 150%, rgba(0, 180, 255, 0) 0, rgba(0, 180, 255, 0.4) 90%);
+    height: 100%;
+    width: 2px;
+}
+
+.journey-line.journey-line-end.left:before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 100%;
+    right: 0;
+    bottom: 100%;
+    background: radial-gradient(ellipse at 50% 150%, rgba(0, 180, 255, 0) 0, rgba(0, 180, 255, 0.4) 90%);
+    height: 100%;
+    width: 2px;
+}
+
+.journey-line.journey-line-end.left.mobile:before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: 100%;
+    background: radial-gradient(ellipse at 50% 150%, rgba(0, 180, 255, 0) 0, rgba(0, 180, 255, 0.4) 90%);
+    height: 100%;
+    width: 2px;
+}
+
+.journey-ball{
+    position: absolute;
+    right: calc(50% + 0.25rem);
+    width: 12px;
+    height: 12px;
+    background-color: #4e9ca5;
+    content: "";
+    border-radius: 100%;
+}
+
+.journey-ball.mobile{
+    position: absolute;
+    left: 28px;
+    width: 12px;
+    height: 12px;
+    background-color: #4e9ca5;
+    content: "";
+    border-radius: 100%;
+}
+
+.journey-footer{
+    transform: translateY(500px);
+}

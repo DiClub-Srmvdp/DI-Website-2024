@@ -1,0 +1,41 @@
+/* Components */
+@import url(all.min.css);
+@import url(navhead.css);
+@import url(banner.css);
+@import url(carousel.css);
+@import url(footer.css);
+
+/* Pages */
+@import url(pages/about.css);
+@import url(pages/events.css);
+@import url(pages/team.css);
+@import url(pages/projects.css);
+@import url(pages/journey.css);
+@import url(pages/arcade.css);
+
+@font-face {
+    font-family: Inter;
+    src: url(../webfonts/Inter.ttf);
+}
+
+@font-face {
+    font-family: Arcade;
+    src: url(../webfonts/Arcade.ttf);
+}
+
+@font-face {
+    font-family: Classic;
+    src: url(../webfonts/Classic.ttf);
+}
+
+body{
+    color: #fff;
+    background-color: #000;
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+    margin: 0;
+    font-family: 'Inter';
+}
+
+.page-wrapper{
+    scroll-snap-type: y mandatory;
+}

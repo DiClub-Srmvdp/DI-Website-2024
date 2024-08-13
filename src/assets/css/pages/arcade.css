@@ -1,0 +1,301 @@
+.di-arcade-monitor {
+  background-color: #000;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.di-arcade-monitor-logo {
+  position: absolute;
+  top: 10px;
+  font-size: 1.3rem;
+  padding: 9px;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+  font-family: Arcade;
+  letter-spacing: 4px;
+  background: -webkit-linear-gradient(#e35e33, #f2c141);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  user-select: none;
+}
+
+.di-arcade-monitor-frame-top {
+  position: absolute;
+  top: 0;
+  border-top: 72px solid #13132d;
+  border-left: 72px solid transparent;
+  border-right: 72px solid transparent;
+  height: 0;
+  width: 100vw;
+}
+
+.di-arcade-monitor-frame-bottom {
+  position: absolute;
+  bottom: 0;
+  border-bottom: 72px solid #13132d;
+  border-left: 72px solid transparent;
+  border-right: 72px solid transparent;
+  height: 0;
+  width: 100vw;
+}
+
+.di-arcade-monitor-frame-left {
+  position: absolute;
+  left: 0;
+  border-top: 72px solid transparent;
+  border-left: 72px solid #2a2746;
+  border-right: 72px solid transparent;
+  height: 100vh;
+  width: 0;
+}
+
+.di-arcade-monitor-frame-right {
+  position: absolute;
+  right: 0;
+  border-top: 72px solid transparent;
+  border-left: 72px solid transparent;
+  border-right: 72px solid #2a2746;
+  height: 100vh;
+  width: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .di-arcade-monitor-frame-top,
+  .di-arcade-monitor-frame-bottom,
+  .di-arcade-monitor-frame-left,
+  .di-arcade-monitor-frame-right {
+    border-top-width: 32px;
+    border-left-width: 32px;
+    border-right-width: 32px;
+    border-bottom-width: 32px;
+  }
+}
+
+.di-arcade-monitor-screen {
+  position: absolute;
+  margin: 72px;
+  background-color: #33233d;
+  background-image: linear-gradient(rgba(156, 103, 157, 0.4) 1px, transparent 0), linear-gradient(90deg, rgba(156, 103, 157, 0.4) 1px, transparent 0);
+  background-size: 64px 64px;
+  background-position: center;
+  width: calc(100vw - 144px);
+  height: calc(100vh - 144px);
+  box-shadow: inset 0px 0px 32px 7px rgba(0, 0, 0, 0.75);
+}
+
+.di-arcade-monitor-content {
+  height: 100%;
+  padding: 16px;
+  font-family: Classic;
+  overflow: auto;
+}
+
+.di-arcade-top {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.di-arcade-top-content {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.di-arcade-head {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.di-arcade-head-title {
+  font-size: 4rem;
+  padding: 9px;
+  z-index: 1;
+  text-align: center;
+  font-family: Arcade;
+  letter-spacing: 4px;
+  background: -webkit-linear-gradient(#e35e33, #f2c141);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  user-select: none;
+}
+
+.di-arcade-head-quote {
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  font-family: "Press Start 2P", cursive;
+}
+
+.di-arcade-count {
+  margin-top: 40px;
+  font-family: "Press Start 2P", cursive;
+  font-size: 1.1rem;
+}
+
+.di-arcade-countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 1.3rem;
+}
+
+.di-arcade-base-content {
+  margin-bottom: 30px;
+  font-family: "Press Start 2P", cursive;
+  font-size: 1.2rem;
+  background: -webkit-linear-gradient(#e35e33, #f2c141);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.di-arcade-base-content a {
+  text-decoration: 1px solid underline #f2c141;
+}
+
+.di-arcade-events {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Press Start 2P", cursive;
+  width: 100%;
+}
+
+.di-arcade-events-content {
+  width: 90%;
+}
+
+.di-arcade-events-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.di-arcade-event {
+  width: 375px;
+  background-color: #1a1423;
+  padding: 5px;
+  border: 0.2px solid #372549;
+}
+
+.di-arcade-event img {
+  height: 256px;
+}
+
+.di-arcade-event .card-title {
+  background: -webkit-linear-gradient(#e35e33, #f2c141);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.di-arcade-event .card-body {
+  color: white;
+  font-size: 14px;
+}
+
+.di-arcade-event .list-group {
+  min-height: 310px;
+}
+
+.di-arcade-event li {
+  background-color: transparent;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Arcade Scrollbar */
+.di-arcade-monitor-content {
+  scrollbar-width: thin;
+  scrollbar-color: #ab73b0 #574165;
+}
+
+.di-arcade-monitor-content::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+.di-arcade-monitor-content::-webkit-scrollbar-track {
+  border-radius: 0px;
+  background-color: #574165;
+}
+
+.di-arcade-monitor-content::-webkit-scrollbar-track:hover,
+.di-arcade-monitor-content::-webkit-scrollbar-track:active {
+  background-color: #574165;
+}
+
+.di-arcade-monitor-content::-webkit-scrollbar-thumb {
+  border-radius: 0px;
+  background-color: #ab73b0;
+}
+
+.di-arcade-monitor-content::-webkit-scrollbar-thumb:hover,
+.di-arcade-monitor-content::-webkit-scrollbar-thumb:active {
+  background-color: #ab73b0;
+}
+
+@media screen and (max-width: 957px) {
+  .di-arcade-monitor-logo {
+    font-size: 1.5rem;
+    padding: 6px;
+  }
+
+  .di-arcade-head-title {
+    margin-top: 50px;
+    height: 100px;
+    font-size: 3.5rem;
+  }
+
+  .di-arcade-head-quote {
+    font-size: 1.1rem;
+    letter-spacing: 1.5px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .di-arcade-monitor-screen {
+    margin: 32px;
+    width: calc(100vw - 60px);
+    height: calc(100vh - 60px);
+  }
+
+  .di-arcade-monitor-logo {
+    font-size: 0.9rem;
+    padding: 2px;
+  }
+
+  .di-arcade-head-title {
+    margin-top: 50px;
+    height: 100px;
+    font-size: 2.4rem;
+  }
+
+  .di-arcade-head-quote {
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+  }
+
+  .di-arcade-countdown {
+    font-size: 1rem;
+  }
+
+  .di-arcade-event {
+    width: calc(100% - 10px); /* Adjust width to fit screen with margin */
+    margin: 5px;
+  }
+}

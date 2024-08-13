@@ -1,0 +1,125 @@
+/* Animations */
+@keyframes nav-slide {
+    0% {
+        transform: translateX(-1000px);
+    }
+
+    25% {
+        transform: translateX(0px);
+    }
+}
+
+.navbar {
+    height: 56px;
+}
+
+.di-navhead {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    transition: 0.1s ease-in;
+
+}
+
+.di-navhead-mobile {
+    height: 72px;
+}
+
+.di-navhead-mobile-collapse {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+
+    animation-name: nav-slide;
+    animation-duration: 2s;
+}
+
+.di-navhead-mobile-collapse.collapse,
+.di-navhead-mobile-collapse.collapse.show,
+.di-navhead-mobile-collapse.collapsing {
+    animation-name: nav-slide;
+    animation-duration: 2s;
+}
+
+
+
+.di-navbar-toggler {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.di-navbar-toggler:hover,
+.di-navbar-toggler:active,
+.di-navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.di-navhead-brand {
+    margin: 0;
+    padding: 0;
+    transform: translateY(24px);
+    transition: 0.3s;
+}
+
+.di-navhead-brand:hover{
+    scale: 1.1;
+}
+
+.di-navhead.di-navhead-scroll {
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+}
+
+.di-nav-link {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    color: #fff;
+    margin: 2px 64px;
+    font-size: 20px;
+}
+
+.di-nav-link:hover,
+.di-nav-link:focus,
+.di-nav-link:active,
+.nav-link.di-nav-link.active {
+    color: #fff;
+}
+
+.di-nav-link:after {
+    pointer-events: none;
+    position: absolute;
+    content: '';
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    height: 6px;
+    opacity: 0;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+    -webkit-transition-property: opacity;
+    transition-property: opacity
+}
+
+.di-nav-link:after {
+    top: 100%;
+    background: -webkit-radial-gradient(50% -50%, ellipse, rgba(0, 180, 255, 0.9) 0, rgba(0, 180, 255, 0) 80%);
+    background: radial-gradient(ellipse at 50% -50%, rgba(0, 180, 255, 0.9) 0, rgba(0, 180, 255, 0) 80%)
+}
+
+.di-nav-link:active:after,
+.di-nav-link:focus:after,
+.di-nav-link:hover:after,
+.di-nav-link.active:after {
+    opacity: 1
+}
+
+.di-navhead-mobile-content {
+    margin-top: 192px;
+    padding: 192px 32px 32px 32px;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+}

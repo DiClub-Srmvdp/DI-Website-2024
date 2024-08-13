@@ -1,0 +1,31 @@
+.main-footer {}
+
+.main-footer:before {
+    pointer-events: none;
+    position: absolute;
+    content: '';
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    height: 8px;
+    opacity: 1;
+    background: -webkit-radial-gradient(50% 150%, ellipse, rgba(0, 180, 255, 0.9) 0, rgba(0, 180, 255, 0) 80%);
+    background: radial-gradient(ellipse at 50% 150%, rgba(0, 180, 255, 0.9) 0, rgba(0, 180, 255, 0) 80%)
+}
+
+.footer-social-media li a {
+    color: #fff;
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+
+.footer-social-media li a:hover,
+.footer-social-media li a:focus,
+.footer-social-media li a:active {
+    color: #4e9ca5;
+}
+
+.footer-copyright {
+    text-align: center;
+    right: 0;
+}

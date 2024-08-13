@@ -1,0 +1,99 @@
+.di-home-banner {
+    padding: 0;
+    padding-top: 50px;
+    background-image: url(../img/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.di-home-banner-2 {
+    padding: 0;
+    padding-top: 50px;
+    background-image: url(../img/banner-2.svg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.di-home-banner-content {
+    height: calc(100% - 72px);
+}
+
+@keyframes moto-animation {
+    0% {
+        transform: translateY(-50vh);
+    }
+
+    50% {
+        transform: translateY(5vh);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.di-home-banner-moto {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    animation: moto-animation 2s;
+}
+
+.di-home-banner-moto span {
+    font-size: 4rem;
+}
+
+.di-home-banner-moto span:first-child {
+    color: #facf5a;
+}
+
+.di-home-banner-moto span:nth-child(2) {
+    color: #4e9ca5;
+}
+
+.di-home-banner-moto span:nth-child(3) {
+    color: #f15b5c;
+}
+
+.di-home-banner-name {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.di-home-banner-explore {
+    text-align: center;
+    transform: translateY(-16px);
+}
+
+.di-home-banner-explore .di-link {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+@keyframes explore-jump {
+    0% {
+        transform: translateY(8px);
+    }
+
+    50% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(8px);
+    }
+}
+
+.di-home-banner-explore a i {
+    font-size: 1.7rem;
+    animation: explore-jump 1s infinite;
+}
+
+.di-banner{
+    height: 64px;
+}
