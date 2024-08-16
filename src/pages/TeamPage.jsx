@@ -1,6 +1,6 @@
 import React from "react";
 
-const teamData = [
+const heads = [
   {
     name: "Dr S Prasanna Devi",
     title: "Head of Department",
@@ -87,6 +87,55 @@ const teamData = [
   },
 ];
 
+const jointHeads = [
+  {
+    name: "Mognapriya",
+    title: "Joint Treasurer",
+    imgSrc: "/assets/img/team/mognapriya.jpg",
+  },
+  {
+    name: "Lalith Abishek",
+    title: "Joint Technical Head",
+    imgSrc: "/assets/img/team/lalith.jpg",
+  },
+  {
+    name: "Venkat G",
+    title: "Joint Head of Design",
+    imgSrc: "/assets/img/team/venkat.jpg",
+  },
+  {
+    name: "Hemachandru",
+    title: "Joint Head of Logistics & Operations",
+    imgSrc: "/assets/img/team/hemachandru.png",
+  },
+  {
+    name: "Kirthika",
+    title: "Joint Head of Outreach",
+    imgSrc: "/assets/img/team/kirthika.jpg",
+  },
+  {
+    name: "Sowmya G",
+    title: "Joint Head of Working Committee",
+    imgSrc: "/assets/img/team/sowmya.jpg",
+  },
+  {
+    name: "T N Shreya",
+    title: "Joint Head of Content & Social Media",
+    imgSrc: "/assets/img/team/shreya.jpg",
+  },
+  {
+    name: "Mridulla",
+    title: "Joint People Officer",
+    imgSrc: "/assets/img/team/mridulla.jpg",
+  },
+  {
+    name: "Manoj kumar",
+    title: "Joint Head of Resource Management",
+    imgSrc: "/assets/img/team/manoj.jpg",
+  },
+];
+
+
 export default function TeamPage() {
   return (
     <main>
@@ -99,8 +148,11 @@ export default function TeamPage() {
           <p>The powers that be</p>
         </div>
         <div className="team-body">
-          {teamData.map((member, index) => (
+          {heads.map((member, index) => (
             <TeamMember key={index} idx={index} name={member.name} title={member.title} description={member.description} imgSrc={member.imgSrc} />
+          ))}
+          {jointHeads.map((member, index) => (
+            <TeamMember key={index} idx={index+1} name={member.name} title={member.title} description={member.description} imgSrc={member.imgSrc} />
           ))}
         </div>
       </section>
@@ -117,9 +169,11 @@ const TeamMember = ({ name, title, description, imgSrc, idx }) => {
           <h2>{name}</h2>
           <h5>{title}</h5>
         </div>
-        <div className="team-position mt-4">
-          <p>{description}</p>
-        </div>
+        {description && (
+          <div className="team-position mt-4">
+            <p>{description}</p>
+          </div>
+        )}
       </div>
       <div className={`team-imagebox col-12 col-md-6 ${isLeft ? "order-0" : "order-0 order-md-1"}`}>
         <div className="team-image">
