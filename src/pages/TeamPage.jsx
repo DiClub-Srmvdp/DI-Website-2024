@@ -38,10 +38,20 @@ const heads = [
     imgSrc: "/assets/img/team/srinivasan.jpg",
   },
   {
+    name: "Mognapriya",
+    title: "Joint Treasurer",
+    imgSrc: "/assets/img/team/mognapriya.jpg",
+  },
+  {
     name: "Viraj Patel",
     title: "Technical Head",
     description: "Pioneering innovation, mastering technology.",
     imgSrc: "/assets/img/team/viraj.jpg",
+  },
+  {
+    name: "Lalith Abishek",
+    title: "Joint Technical Head",
+    imgSrc: "/assets/img/team/lalith.jpg",
   },
   // {
   //   name: "Vishwajith S",
@@ -50,10 +60,20 @@ const heads = [
   //   imgSrc: "/assets/img/team/vishwajith.jpg",
   // },
   {
+    name: "Venkat G",
+    title: "Joint Head of Design",
+    imgSrc: "/assets/img/team/venkat.jpg",
+  },
+  {
     name: "Ganesh Kumar",
     title: "Head of Logistics & Operations",
     description: "Seamless execution, behind the scenes.",
     imgSrc: "/assets/img/team/ganesh.jpg",
+  },
+  {
+    name: "Hemachandru",
+    title: "Joint Head of Logistics & Operations",
+    imgSrc: "/assets/img/team/hemachandru.png",
   },
   {
     name: "Ashwath Amudhan C A",
@@ -62,10 +82,20 @@ const heads = [
     imgSrc: "/assets/img/team/ashwath.jpg",
   },
   {
+    name: "Kirthika",
+    title: "Joint Head of Outreach",
+    imgSrc: "/assets/img/team/kirthika.jpg",
+  },
+  {
     name: "Mahaalakshmi M",
     title: "Head of Working Committee",
     description: "Efficiency in action, excellence in results.",
     imgSrc: "/assets/img/team/mahaalakshmi.jpg",
+  },
+  {
+    name: "Sowmya G",
+    title: "Joint Head of Working Committee",
+    imgSrc: "/assets/img/team/sowmya.jpg",
   },
   {
     name: "Aditi Walunj",
@@ -74,54 +104,15 @@ const heads = [
     imgSrc: "/assets/img/team/aditi.png",
   },
   {
+    name: "T N Shreya",
+    title: "Joint Head of Content & Social Media",
+    imgSrc: "/assets/img/team/shreya.jpg",
+  },
+  {
     name: "Nivetha K",
     title: "People Officer",
     description: "Empowering the team, amplifying the voice.",
     imgSrc: "/assets/img/team/nivetha.jpg",
-  },
-  {
-    name: "Kanishk J",
-    title: "Head of Resource Management",
-    description: "Sourcing the best, for the best.",
-    imgSrc: "/assets/img/team/kanishk.jpg",
-  },
-];
-
-const jointHeads = [
-  {
-    name: "Mognapriya",
-    title: "Joint Treasurer",
-    imgSrc: "/assets/img/team/mognapriya.jpg",
-  },
-  {
-    name: "Lalith Abishek",
-    title: "Joint Technical Head",
-    imgSrc: "/assets/img/team/lalith.jpg",
-  },
-  {
-    name: "Venkat G",
-    title: "Joint Head of Design",
-    imgSrc: "/assets/img/team/venkat.jpg",
-  },
-  {
-    name: "Hemachandru",
-    title: "Joint Head of Logistics & Operations",
-    imgSrc: "/assets/img/team/hemachandru.png",
-  },
-  {
-    name: "Kirthika",
-    title: "Joint Head of Outreach",
-    imgSrc: "/assets/img/team/kirthika.jpg",
-  },
-  {
-    name: "Sowmya G",
-    title: "Joint Head of Working Committee",
-    imgSrc: "/assets/img/team/sowmya.jpg",
-  },
-  {
-    name: "T N Shreya",
-    title: "Joint Head of Content & Social Media",
-    imgSrc: "/assets/img/team/shreya.jpg",
   },
   {
     name: "Mridulla",
@@ -129,12 +120,17 @@ const jointHeads = [
     imgSrc: "/assets/img/team/mridulla.jpg",
   },
   {
+    name: "Kanishk J",
+    title: "Head of Resource Management",
+    description: "Sourcing the best, for the best.",
+    imgSrc: "/assets/img/team/kanishk.jpg",
+  },
+  {
     name: "Manoj kumar",
     title: "Joint Head of Resource Management",
     imgSrc: "/assets/img/team/manoj.jpg",
   },
 ];
-
 
 export default function TeamPage() {
   return (
@@ -150,9 +146,6 @@ export default function TeamPage() {
         <div className="team-body">
           {heads.map((member, index) => (
             <TeamMember key={index} idx={index} name={member.name} title={member.title} description={member.description} imgSrc={member.imgSrc} />
-          ))}
-          {jointHeads.map((member, index) => (
-            <TeamMember key={index} idx={index+1} name={member.name} title={member.title} description={member.description} imgSrc={member.imgSrc} />
           ))}
         </div>
       </section>
