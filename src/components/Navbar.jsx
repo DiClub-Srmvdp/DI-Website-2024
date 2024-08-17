@@ -64,7 +64,7 @@ function MobileNavbar() {
         >
           <i className="fa-solid fa-grip"></i>
         </button>
-        <NavBrand logoSrc="./src/assets/img/di-logo.png" width="96px" />
+        <NavBrand logoSrc="/assets/img/di-logo.png" width="96px" />
       </div>
       <div className="collapse di-navhead-mobile-collapse" id="navbarMobile">
         <div className="di-navhead-mobile-content">

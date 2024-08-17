@@ -49,7 +49,7 @@ const heads = [
     imgSrc: "/assets/img/team/viraj.jpg",
   },
   {
-    name: "Lalith Abishek",
+    name: "Lalith Abhishek G",
     title: "Joint Technical Head",
     imgSrc: "/assets/img/team/lalith.jpg",
   },
@@ -163,7 +163,7 @@ const TeamMember = ({ name, title, description, imgSrc, idx }) => {
           <h5>{title}</h5>
         </div>
         {description && (
-          <div className="team-position mt-4">
+          <div className="team-position">
             <p>{description}</p>
           </div>
         )}
