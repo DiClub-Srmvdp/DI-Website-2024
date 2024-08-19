@@ -10,9 +10,9 @@ export default function AppLayout() {
   useEffect(() => {
     AOS.init();
   }, []);
-  
+
   return (
-    <div>
+    <div className="layout-container">
       <Navbar />
       <Outlet />
       <Footer />

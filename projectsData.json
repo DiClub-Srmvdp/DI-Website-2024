@@ -1,0 +1,185 @@
+{
+  "projects": [
+    {
+      "image": "/assets/img/projects/dld/code_editor_proj.png",
+      "link": "https://github.com/A-R-J-U/Code-editor.git",
+      "title": "Code editor",
+      "description": "Allows users to write, edit, and preview code in various programming languages within a single interface",
+      "name": "Arjun kaymala",
+      "dept": "CSE",
+      "skills": ["HTML", "CSS", "JS"],
+      "key": 1
+    },
+    {
+      "image": "/assets/img/projects/dld/parking_proj.png",
+      "link": "https://github.com/siddeshwarnavink/carparking",
+      "title": "Parking Management",
+      "description": "It is a system designed to manage vehicle parking efficiently by tracking available spots, handling reservations, and sometimes integrating payment options for users",
+      "dept": "CSE",
+      "name": "Sideshwar",
+      "skills": ["TypeScript", "Java", "SCSS", "CSS"],
+      "key": 2
+    },
+    {
+      "image": "/assets/img/projects/dld/Stadium_proj.jpg",
+      "link": "https://github.com/sirushtik/cricket-cafe-tk",
+      "title": "Cricket Match Ticket Booking",
+      "description": "The cricket match ticket booking system allows users to browse available matches, select seats, and purchase tickets online, managing reservations and payments efficiently.",
+      "dept": "CSE",
+      "name": "Sirushti k",
+      "skills": ["Python", "Tkinter"],
+      "key": 3
+    },
+    {
+      "image": "/assets/img/projects/dld/blog_proj.png",
+      "link": "https://github.com/BarathKV/Wordscraft?tab=readme-ov-file",
+      "title": "Blog Website",
+      "description": "The blog website is an online platform where users can publish, share, and manage articles or posts on various topics, often featuring comments and social sharing options.",
+      "dept": "CSE",
+      "name": "Barath KV",
+      "skills": ["Java"],
+      "key": 4
+    },
+    {
+      "image": "/assets/img/projects/dld/tic_proj.png",
+      "link": "https://github.com/siddeshwarnavink/tictactoe-ai",
+      "title": "AI tic tac toe ",
+      "description": "The AI Tic-Tac-Toe project is a game where players compete against an AI that uses algorithms to play optimally and strategically in a 3x3 grid",
+      "dept": "CSE",
+      "name": "Sideshwar",
+      "skills": ["Kotlin"],
+      "key": 5
+    },
+    {
+      "image": "/assets/img/projects/dld/wthr_app.png",
+      "link": "https://github.com/carovine/Weather-Website",
+      "title": "Weather Website",
+      "description": "The weather website uses API to fetch and display real-time weather data from external sources and displays forecasts, conditions, and other details based on user-selected locations.",
+      "dept": "CSE",
+      "name": "Caroline Vineeta",
+      "skills": ["HTML", "CSS", "JS"],
+      "key": 6
+    },
+    {
+      "image": "/assets/img/projects/dld/gpa_wiz.png",
+      "link": "https://github.com/virajp4/GPA-Wiz.git",
+      "title": "GPA-Wiz",
+      "description": "A website that helps the students of SRM IST to calculate their GPA.",
+      "dept": "CSE",
+      "name": "Viraj",
+      "skills": ["HTML"],
+      "key": 7
+    },
+    {
+      "image": "/assets/img/projects/dld/Flappy.png",
+      "link": "https://lalithabishekg.github.io/flying-shuttle/",
+      "title": "Flying Shuttle",
+      "description": "A simple flappy bird like game, made using HTML,CSS and JavaScript.",
+      "dept": "CSE",
+      "name": "Lalith Abhishek",
+      "skills": ["HTML", "CSS", "JS"],
+      "key": 8
+    },
+    {
+      "image": "/assets/img/projects/dld/chess.png",
+      "link": "https://github.com/virajp4/Chess.git",
+      "title": "Chess game",
+      "description": "A Chess game with additional functionalities, designed using high level object oriented programming.",
+      "dept": "CSE",
+      "name": "Viraj",
+      "skills": ["Python", "Tkinter"],
+      "key": 9
+    },
+    {
+      "image": "/assets/img/projects/dld/Lib_mng.jpg",
+      "link": "https://github.com/11saishiva/LIBRARY-MGMT",
+      "title": "Library Management",
+      "description": "The library management project is a system that streamlines the tracking of books, borrowers, and inventory, allowing for easy check-ins, check-outs, and catalog management using tkinter and MySql",
+      "dept": "CSE",
+      "name": "Sai Shiva",
+      "skills": ["Python", "Tkinter"],
+      "key": 10
+    },
+    {
+      "image": "/assets/img/projects/dld/java_mng.jpg",
+      "link": "https://github.com/Vignashwarr/Bank-management-system-using-_java.git",
+      "title": "Java Bank Management",
+      "description": "The Java bank management is a software system that handles banking operations like account management, transactions, and customer details using Java programming.",
+      "dept": "CSE",
+      "name": "Vigneshwar",
+      "skills": ["Java"],
+      "key": 11
+    },
+    {
+      "image": "/assets/img/projects/dld/htl_mng.jpg",
+      "link": "https://github.com/lalithAbishekG/hotel-management.git",
+      "title": "Hotel Management",
+      "description": "The hotel management project is a system that manages hotel operations like room booking, check-ins, check-outs, billing, and customer services, often automating various tasks for efficient administration.",
+      "dept": "CSE",
+      "name": "Lalith Abhishek",
+      "skills": ["Python"],
+      "key": 12
+    },
+    {
+      "image": "/assets/img/projects/dld/grcr_mng.jpg",
+      "link": "https://github.com/GeorgeTheSmart/Grocery-Management/tree/main/Grocery%20Inventory%20Management",
+      "title": "Grocery Management",
+      "description": "The grocery management proj helps us keep track of inventory and billing operations ina grocery store.",
+      "dept": "CSE",
+      "name": "A.George",
+      "skills": ["Python"],
+      "key": 13
+    },
+    {
+      "image": "/assets/img/projects/dld/notes_taker.jpg",
+      "link": "https://github.com/11saishiva/NOTES-APP",
+      "title": "Notes Taker",
+      "description": "This Note Making App is a simple and intuitive application built using Python's Tkinter library. It allows users to easily create, view, edit, and delete notes, with all notes stored persistently in a JSON file.",
+      "dept": "CSE",
+      "name": "Sai Shiva",
+      "skills": ["Python"],
+      "key": 14
+    },
+    {
+      "image": "/assets/img/projects/dld/cmpn_intrst.png",
+      "link": "https://github.com/virajp4/Compound-Interest-Calculator.git",
+      "title": "Compound Calculator",
+      "description": "A react web app that enables users to calculate the Compound Interest compounded annually.",
+      "dept": "CSE",
+      "name": "Viraj",
+      "skills": ["React"],
+      "key": 15
+    },
+    {
+      "image": "/assets/img/projects/dld/pythn_parking.png",
+      "link": "https://github.com/vinayavr/Vehicle-Parking-Management",
+      "title": "Python Parking",
+      "description": "A parking manager using just python",
+      "dept": "CSE",
+      "name": "Vinaya vr",
+      "skills": ["Python"],
+      "key": 16
+    },
+
+    {
+      "image": "/assets/img/projects/dld/calc.png",
+      "link": "https://github.com/virajp4/Simple-Calculator.git",
+      "title": "Calculator",
+      "description": "A simple Calculator app with all calculation functionalities.",
+      "dept": "CSE",
+      "name": "Viraj",
+      "skills": ["Python", "Tkinter"],
+      "key": 17
+    },
+    {
+      "image": "/assets/img/projects/dld/to-to.jpg",
+      "link": "https://github.com/manojkumar2322/To-do-list.git",
+      "title": "To-Do-List",
+      "description": "This is a simple To-Do List application built using Python's Tkinter and SQLite for persistent data storage. It allows users to add, delete, and mark tasks as done, with a clean UI featuring a dark green and sandal color scheme. Tasks are stored in an SQLite database, ensuring they persist after closing the application.",
+      "dept": "CSE",
+      "name": "Manoj Kumar",
+      "skills": ["Python", "Tkinter", "SQLite"],
+      "key": 18
+    }
+  ]
+}

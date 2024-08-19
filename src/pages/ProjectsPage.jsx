@@ -1,35 +1,10 @@
 import React, { useState } from "react";
 
 import Slider from "../components/Slider";
+import projectsList from "../../projectsData.json";
 
 export default function ProjectsPage() {
-  const projects = [
-    {
-      image: `/assets/img/projects/dld/parking_proj.png`,
-      title: "Parking Project",
-    },
-    {
-      image: `/assets/img/projects/dld/code_editor_proj.png`,
-      title: "Code Editor",
-    },
-    {
-      image: `/assets/img/projects/dld/Stadium_proj.jpg`,
-      title: "Stadium Management",
-    },
-    {
-      image: `/assets/img/projects/dld/tic_proj.png`,
-      title: "Tic-Tac-Toe App",
-    },
-    {
-      image: `/assets/img/projects/dld/blog_proj.png`,
-      title: "Java Blog",
-    },
-    {
-      image: `/assets/img/projects/dld/cmpn_intrst.png`,
-      title: "Compound Interest Calculator",
-    },
-  ];
-
+  const projects = projectsList.projects;
   return (
     <main>
       <section className="di-banner"></section>
@@ -37,7 +12,9 @@ export default function ProjectsPage() {
         <section className="projects-wrapper">
           <div className="projects-title my-4 pt-5">
             <h1 className="text-center">
-              <span>P</span>rojects
+              <div className="di-home-banner-moto pt-2 pt-lg-5">
+                <span>D</span>esign <span>L</span>ab <span>P</span>rojects
+              </div>
             </h1>
             <p className="my-3">
               DI Club has been working on various projects since its inception. The projects are based on different domains and technologies. The
@@ -60,9 +37,9 @@ export default function ProjectsPage() {
       <div className="bottom-projects">
         <div className="d-flex flex-column pt-5">
           <h1 className="text-center text-decoration-underline">All Projects</h1>
-          <div class="w-100 row projects-grid p-5 gap-4 justify-content-center">
-            {projects.map((project, index) => (
-              <Project key={index} project={project} />
+          <div className="w-100 row projects-grid p-5 gap-4 justify-content-center">
+            {projects.map((project) => (
+              <Project key={project.key} project={project} />
             ))}
           </div>
         </div>
@@ -72,5 +49,13 @@ export default function ProjectsPage() {
 }
 
 function Project({ project }) {
-  return <div className="projects-grid-item" style={{ backgroundImage: `url(${project.image})` }} data-title={project.title}></div>;
+  return (
+    <a
+      href={`/projects/` + project.key}
+      target="_blank"
+      className="projects-grid-item"
+      style={{ backgroundImage: `url(${project.image})` }}
+      data-title={project.title}
+    ></a>
+  );
 }

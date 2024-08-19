@@ -28,10 +28,6 @@
   animation: events-heading-anime 1.5s infinite;
 }
 
-.projects-title h1 span:first-child {
-  color: #f15b5c;
-}
-
 .projects-title p {
   font-size: 1rem;
   text-align: center;

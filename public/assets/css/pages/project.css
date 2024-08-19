@@ -1,0 +1,99 @@
+.single-project-container {
+  background: url("/assets/img/projects/bg2.png");
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.project-content {
+  max-width: 1200px;
+}
+
+.project-image-frame {
+  display: inline-block;
+  margin: 0px;
+  padding: 15px;
+  border: 10px solid #140039;
+  background-color: #eaeaea;
+  transition: 0.3s ease;
+  height: 310px;
+  width: 80%;
+  box-shadow: inset 2px 2px 6px 0px rgba(105, 98, 105, 1);
+  object-fit: cover;
+  -webkit-box-shadow: 12px 10px 34px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 12px 10px 34px 0px rgba(0, 0, 0, 1);
+  box-shadow: 12px 10px 34px 0px rgba(0, 0, 0, 1);
+}
+
+.project-desc {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  background: rgba(175, 174, 174, 0.13);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12.7px);
+  -webkit-backdrop-filter: blur(12.7px);
+  border: 1px solid rgba(175, 174, 174, 0.33);
+  padding: 20px;
+}
+
+.project-desc p {
+  text-align: left;
+  padding: 10px;
+  padding-top: 0;
+  color: #fff;
+}
+
+.project-title {
+  text-align: left;
+  color: white;
+  padding: 10px;
+}
+
+.project-title h1 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.project-title h2 {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.techstack {
+  display: flex;
+  gap: 10px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  margin-top: 10px;
+}
+
+.techstack button {
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 18px;
+  background: linear-gradient(148deg, rgba(255, 226, 0, 1) 0%, rgba(29, 143, 253, 1) 50%, rgba(252, 69, 69, 1) 100%);
+}
+
+.project-github {
+  padding: 15px 10px;
+  text-decoration: none;
+  min-width: 150px;
+  height: 50px;
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  border: 1px solid black;
+  cursor: pointer;
+  background: linear-gradient(148deg, rgba(255,226,0,1) 0%, rgba(29,143,253,1) 50%, rgba(252,69,69,1) 100%);
+  transition: .3s ease-in;
+}
+.project-github:hover{
+  transform: scale(1.1);
+  box-shadow: -4px 4px 44px 0px rgba(109,120,255,0.9);
+}
+
+.project-github i {
+  margin-right: 5px;
+}

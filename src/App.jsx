@@ -7,6 +7,7 @@ import TeamPage from "./pages/TeamPage";
 import ProjectsPage from "./pages/ProjectsPage";
 import JourneyPage from "./pages/JourneyPage";
 import EventsPage from "./pages/EventsPage";
+import SingleProjectPage from "./pages/SingleProjectPage";
 
 function App() {
   const router = createBrowserRouter([
@@ -24,6 +25,10 @@ function App() {
         {
           path: "/projects",
           element: <ProjectsPage />,
+        },
+        {
+          path: "/projects/:projectKey",
+          element: <SingleProjectPage />,
         },
         {
           path: "/journey",
