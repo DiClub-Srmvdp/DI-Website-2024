@@ -53,8 +53,8 @@ export default function SparkPage() {
         <h1 className="spark-chief">Chief Guests</h1>
         <section className="spark-guests">
           <Guest name="DR. RAMAKRISHNAN RAMANI" title="ASSISTANT. VICE PRESIDENT, INTELLECT DESIGN ARENA LTD" image={gs2} />
-          <Guest name="THIRU. K.S. KANDASAMY IAS" title="MANAGING DIRECTOR,TAHDCO" image={gs1} />
-          <Guest name="DR. K.KOMATHY" title="CHAIRMEN CSI,CHENNAI CHAPTER" image={gs3} />
+          <Guest name="THIRU. K.S. KANDASAMY IAS" title="MANAGING DIRECTOR, TAHDCO" image={gs1} />
+          <Guest name="DR. K.KOMATHY" title="CHAIRMEN CSI, CHENNAI CHAPTER" image={gs3} />
         </section>
       </div>
     </div>
