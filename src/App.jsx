@@ -8,6 +8,7 @@ import ProjectsPage from "./pages/ProjectsPage";
 import JourneyPage from "./pages/JourneyPage";
 import EventsPage from "./pages/EventsPage";
 import SingleProjectPage from "./pages/SingleProjectPage";
+import SparkPage from "./pages/SparkPage";
 
 function App() {
   const router = createBrowserRouter([
@@ -37,6 +38,10 @@ function App() {
         {
           path: "/events",
           element: <EventsPage />,
+        },
+        {
+          path: "/spark",
+          element: <SparkPage />,
         },
       ],
     },
