@@ -8,7 +8,7 @@ import ProjectsPage from "./pages/ProjectsPage";
 import JourneyPage from "./pages/JourneyPage";
 import EventsPage from "./pages/EventsPage";
 import SingleProjectPage from "./pages/SingleProjectPage";
-import SparkPage from "./pages/SparkPage";
+import Hexcore from "./pages/Hexcore";
 
 function App() {
   const router = createBrowserRouter([
@@ -40,8 +40,8 @@ function App() {
           element: <EventsPage />,
         },
         {
-          path: "/spark",
-          element: <SparkPage />,
+          path: "/Hexcore",
+          element: <Hexcore />,
         },
       ],
     },
