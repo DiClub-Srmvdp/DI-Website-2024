@@ -1,5 +1,5 @@
 import React from 'react'
-import  { events }  from '../../events.json'
+import  { evnts }  from '../../evnts.json'
 
 
 const bg_style = (href) => ({
@@ -50,7 +50,7 @@ const Hexcore = () => {
             </div>
 
             <div className="wrapper w-100 h-100 p-5 d-flex justify-content-around align-items-center flex-wrap gap-5 ">
-                    { events.map((evnt)=>( <Card key={evnt.id} name={evnt.name} src={evnt.src}/> ))}
+                    { evnts.map((evnt)=>( <Card key={evnt.id} name={evnt.name} src={evnt.src}/> ))}
             </div>
 
         </div>
