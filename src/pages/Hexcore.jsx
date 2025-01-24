@@ -1,5 +1,5 @@
 import React from "react";
-import { evnts,guests } from "../../Hex.json";
+import { evnts, guests } from "../../Hex.json";
 
 const Card = (props) => {
   return (
@@ -18,21 +18,29 @@ const Card = (props) => {
 
 const Gcard = ({ src, head, desc }) => {
   return (
-    <div className="p-2 d-flex flex-column justify-content-center align-items-center text-center element">
+    <div className="p-2 mt-3 d-flex flex-column justify-content-center align-items-center text-center element">
       <img
-        className="bd-placeholder-img rounded-circle"
+        className="bd-placeholder-img rounded-circle "
         width="230"
         height="230"
         src={src}
-        style={{ objectFit: "cover" }} // Ensures image scales properly
+        style={{
+          objectFit: "cover",
+          border: "3px solid rgba(255, 229, 80, 0.19)",
+        }}
       />
       <h2
-        className="fw-bold pt-5 fs-1 text-center"
+        className="fw-bold pt-3 fs-4 text-center"
         style={{ fontSize: "3rem" }}
       >
         {head}
       </h2>
-      <p className="fw-normal pt-3 fs-5 text-center">{desc}</p>
+      <p
+        className="fw-normal p-1 text-center"
+        style={{ fontSize: "12px", width: "65%" }}
+      >
+        {desc}
+      </p>
     </div>
   );
 };
@@ -86,13 +94,20 @@ const Hexcore = () => {
         </div>
       </div>
 
-      <div className="mt-5 guests w-100 d-flex justify-content-around align-items-center flex-wrap gap-5" style={{padding:"2%"}}>
-          
-          { guests.map((gst)=>( <Gcard src ={gst.src} head={gst.head} desc={gst.desc}/> )) }
-        
+      <div
+        className="gst w-100 bg-dark guests d-flex justify-content-around align-items-center flex-wrap gap-0"
+        style={{ padding: "2%" }}
+      >
+        <h1
+          className="text-center p-4 font-Arcane"
+          style={{ fontSize: "3rem" }}
+        >
+          Chief Guests
+        </h1>
+        {guests.map((gst) => (
+          <Gcard src={gst.src} head={gst.head} desc={gst.desc} />
+        ))}
       </div>
-
-
     </div>
   );
 };

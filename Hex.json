@@ -22,25 +22,25 @@
         }
 
     ],
-    
+
     "guests":[
         {
             "id":"1",
-            "head":"name",
-            "desc":"desc",
-            "src":"/assets/img/events/Hexcore/Hex.png"
+            "head":"Mr. Yahya Rasheed",
+            "desc":"Global Head - L&D,Workforce Transformation,HCLTech",
+            "src":"/assets/img/events/Hexcore/g1.png"
         },
         {
             "id":"2",
-            "head":"name",
-            "desc":"desc",
-            "src":"/assets/img/events/Hexcore/Hex.png"
+            "head":"Ms. Mini Mishra",
+            "desc":"Associate Director /Operations Leader,NielsenIQ",
+            "src":"/assets/img/events/Hexcore/g2.jpg"
         },
         {
             "id":"3",
-            "head":"name",
-            "desc":"desc",
-            "src":"/assets/img/events/Hexcore/Hex.png"
+            "head":"Ms. Joyce R. Amirtharaj",
+            "desc":"Senior Director (IT) National Informatics Centre, chennai",
+            "src":"/assets/img/events/Hexcore/g3.jpg"
         }
     ]
 }
