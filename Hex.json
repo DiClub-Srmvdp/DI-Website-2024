@@ -2,28 +2,45 @@
     "evnts": [
         {
             "id":"1",
-            "img":"url",
             "name":"event",
             "src":"/assets/img/events/Hexcore/Hex.png"
         },
         {
             "id":"2",
-            "img":"url",
             "name":"event",
             "src":"/assets/img/events/Hexcore/Hex.png"
         },
         {
             "id":"3",
-            "img":"url",
             "name":"event",
             "src":"/assets/img/events/Hexcore/Hex.png"
         },
         {
             "id":"4",
-            "img":"url",
             "name":"event",
             "src":"/assets/img/events/Hexcore/Hex.png"
         }
 
+    ],
+    
+    "guests":[
+        {
+            "id":"1",
+            "head":"name",
+            "desc":"desc",
+            "src":"/assets/img/events/Hexcore/Hex.png"
+        },
+        {
+            "id":"2",
+            "head":"name",
+            "desc":"desc",
+            "src":"/assets/img/events/Hexcore/Hex.png"
+        },
+        {
+            "id":"3",
+            "head":"name",
+            "desc":"desc",
+            "src":"/assets/img/events/Hexcore/Hex.png"
+        }
     ]
 }
