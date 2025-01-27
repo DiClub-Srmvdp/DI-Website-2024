@@ -1,23 +1,61 @@
 {
     "evnts": [
+
+        {
+            "id":"0",
+            "name":"event",
+            "title":"title",
+            "desc":"desc",
+            "link":"link",
+            "rules":[
+                "All participants must register before the event starts.",
+                "All participants must register before the event starts."
+            ],
+            "coordinators":[["name","number"],["name","number"]],
+            "details":["venue","date","time"],
+            "src":"/assets/img/events/Hexcore/Hex.png"
+        },
+
         {
             "id":"1",
             "name":"event",
+            "title":"title",
+            "desc":"desc",
+            "link":"link",
+            "rules":[
+                "All participants must register before the event starts.",
+                "All participants must register before the event starts."
+            ],
+            "coordinators":[["name","number"],["name","number"]],
+            "details":["venue","date","time"],
             "src":"/assets/img/events/Hexcore/Hex.png"
         },
         {
             "id":"2",
             "name":"event",
+            "title":"title",
+            "desc":"desc",
+            "link":"link",
+            "rules":[
+                "All participants must register before the event starts.",
+                "All participants must register before the event starts."
+            ],
+            "coordinators":[["name","number"],["name","number"]],
+            "details":["venue","date","time"],
             "src":"/assets/img/events/Hexcore/Hex.png"
         },
         {
             "id":"3",
             "name":"event",
-            "src":"/assets/img/events/Hexcore/Hex.png"
-        },
-        {
-            "id":"4",
-            "name":"event",
+            "title":"title",
+            "desc":"desc",
+            "link":"link",
+            "rules":[
+                "All participants must register before the event starts.",
+                "All participants must register before the event starts."
+            ],
+            "coordinators":[["name","number"],["name","number"]],
+            "details":["venue","date","time"],
             "src":"/assets/img/events/Hexcore/Hex.png"
         }
 

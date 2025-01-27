@@ -3,8 +3,9 @@
     height: 100vh;
 }
 .HS-events{
-    background: url(/assets/img/events/Hexcore/Hex-2.png) center/cover no-repeat fixed;
-    backdrop-filter: blur(2px);
+    background: url(/assets/img/events/Hexcore/Hex-2.png) center/cover no-repeat fixed rgba(0, 0, 0, 0.323);
+    background-blend-mode: darken;
+    
 }
 .card{
     background-size: cover;
