@@ -1,5 +1,4 @@
 import React from "react";
-import pstr from "/assets/img/events/Hexcore/arc_pstr.jpg";
 import { evnts } from "../../Hex.json";
 import { useParams } from "react-router-dom";
 
@@ -10,7 +9,7 @@ const Eventpg = () => {
   return (
     <>
       <div
-        className="evnt-sec1 p-5 mt-5 d-flex flex-wrap justify-content-around align-items-center "
+        className="evnt-sec1 p-5 mt-4 d-flex flex-wrap justify-content-around align-items-center "
         style={{ width: "100vw" }}
       >
         <div
@@ -22,7 +21,7 @@ const Eventpg = () => {
           <p className="w-70 fw-light">{evnt.desc}</p>
           <a href="https://forms.gle/mDC4NzXgkFirUMCT7">
             <button
-              className="rounded-4 fs-6 text-white bg-black border border-2 border-gray-300 "
+              className="rounded-4 mt-3 fs-6 text-white bg-black border border-2 border-gray-300 "
               style={{
                 height: "3.5rem",
                 width: "9.5rem",
@@ -38,8 +37,7 @@ const Eventpg = () => {
           <img
             src={evnt.src}
             alt="Poster"
-            className="border rounded border-3"
-            style={{ width: "69%" }}
+            className="border rounded border-3 w-pst"
           />
         </div>
       </div>
@@ -53,7 +51,7 @@ const Eventpg = () => {
           </h2>
           <ul>
             {evnt.rules.map((i, key) => (
-              <li key={key} className="mb-2 fs-3">
+              <li key={key} className="mb-2 fs-5">
                 {i}
               </li>
             ))}
@@ -65,25 +63,25 @@ const Eventpg = () => {
 
             {evnt.coordinators.map((i, key) => (
               <>
-                <h2 className="fs-5 d-flex justify-content-around">
-                  Name: <span>{i[0]}</span>
+                <h2 className="fs-5">
+                  Name: <span className="px-4" >{i[0]}</span>
                 </h2>
-                <h2 className="fs-5 mb-3 d-flex justify-content-around">
-                  Contact: <span>{i[1]}</span>
+                <h2 className="fs-5 mb-3 ">
+                  Contact: <span className="px-2">{i[1]}</span>
                 </h2>
               </>
             ))}
           </div>
           <div className="info-crd1  py-4 px-5 border rounded border-3 mt-3">
             <h3 className="text-center">Details</h3>
-            <h2 className="fs-5 d-flex justify-content-around">
-              Venue: <span>{evnt.details[0]}</span>
+            <h2 className="fs-5 ">
+              Venue: <span className="px-3">{evnt.details[0]}</span>
             </h2>
-            <h2 className="fs-5 d-flex justify-content-around">
-              Date: <span>{evnt.details[1]}</span>
+            <h2 className="fs-5 ">
+              Date: <span className="px-3">{evnt.details[1]}</span>
             </h2>
-            <h2 className="fs-5 d-flex justify-content-around">
-              Time: <span>{evnt.details[2]}</span>
+            <h2 className="fs-5">
+              Time: <span className="px-3">{evnt.details[2]}</span>
             </h2>
           </div>
         </div>

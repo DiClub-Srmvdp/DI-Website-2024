@@ -30,16 +30,6 @@
     src: url(../webfonts/Classic.ttf);
 }
 
-@font-face{
-    font-family: Arcane;
-    src: url(../webfonts/Arcane-9.ttf);
-}
-
-.font-Arcane {
-    font-family: Arcane , sans-serif;
-}
-
-
 
 body{
     color: #fff;

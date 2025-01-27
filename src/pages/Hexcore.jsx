@@ -4,16 +4,16 @@ import { Link } from "react-router-dom";
 
 const Card = (props) => {
   return (
-    <Link to={`/Hexcore/${props.id}`}>
+    <Link to={`/Hexcore/${props.id}`} style={{textDecoration:'none'}}>
       <div
         className="card shadow-lg cursor-pointer d-flex justify-content-center align-items-center"
         style={{
-          width: "16rem",
-          height: "21rem",
+          width: "17rem",
+          height: "24rem",
           backgroundImage: `url( ${props.src} )`,
+          backgroundSize:'cover'
         }}
       >
-        <h1 className="fs-6 text-white ">{props.name}</h1>
       </div>
     </Link>
   );
@@ -34,7 +34,7 @@ const Gcard = ({ src, head, desc }) => {
       />
       <h2
         className="fw-bold pt-3 fs-4 font-Arcane text-center"
-        style={{ fontSize: "3rem",letterSpacing:'2px' }}
+        style={{ fontSize: "3rem",letterSpacing:'2px',textTransform:"lowercase" }}
       >
         {head}
       </h2>
@@ -101,12 +101,12 @@ const Hexcore = () => {
             ))}
           </div>
 
-          <h1 className=" mt-5 p-3 font-Arcane" style={{fontSize:'3rem'}} > TECH</h1>
+          {/* <h1 className=" mt-5 p-3 font-Arcane" style={{fontSize:'3rem'}} > TECH</h1>
           <div className="sec d-flex justify-content-around align-items-center flex-wrap gap-5">
             {evnts.map((evnt) => (
               <Card key={evnt.id} id={evnt.id} name={evnt.name} src={evnt.src} />
             ))}
-          </div>
+          </div> */}
           
         </div>
       </div>

@@ -3,60 +3,72 @@
 
         {
             "id":"0",
-            "name":"event",
+            "name":"RuneCode",
             "title":"title",
-            "desc":"desc",
-            "link":"link",
+            "desc":"A DSA speed-run competition where participants solve easy, medium, and hard problems within a time limit. Speed and accuracy are key",
             "rules":[
-                "All participants must register before the event starts.",
-                "All participants must register before the event starts."
+                "Teams will solve data structure and algorithm (DSA) problems in increasing difficulty levels: easy, medium, and hard",
+                "All problems must be solved within the specified time for each round.",
+                "Phones and external devices are strictly prohibited.",
+                "Teams must work only in the provided coding environment.",
+                "Collaboration with other teams or individuals outside the event is not allowed",
+                "Teams that violate rules or time constraints will face immediate elimination."
             ],
-            "coordinators":[["name","number"],["name","number"]],
-            "details":["venue","date","time"],
-            "src":"/assets/img/events/Hexcore/Hex.png"
+            "coordinators":[["Vibu Sahu","9340089039"],["Kunal Meshram","9755365169"]],
+            "details":["TBD","12 February 2025","10.30am - 3.00pm"],
+            "src":"/assets/img/events/Hexcore/RUNE_CODE.jpg"
         },
 
         {
             "id":"1",
-            "name":"event",
+            "name":"Game Maker",
             "title":"title",
-            "desc":"desc",
-            "link":"link",
+            "desc":"Create games using frameworks like Scratch, GameMaker, JavaScript, or Pygame. Both no-code and coding approaches are allowed!",
             "rules":[
-                "All participants must register before the event starts.",
-                "All participants must register before the event starts."
+                "Teams can create games using Scratch, GameMaker, JavaScript, or Pygame.",
+                "Both no-code and coding approaches are allowed, but the framework must be chosen at the start of the event. ",
+                "Internet access will be restricted, and teams must use provided resources only.",
+                "Teams must submit their completed game within the allotted time.",
+                "Pre-made assets or code are not permitted unless explicitly provided by the organizers.",
+                "Judging will be based solely on the submitted game created during the event. "
             ],
-            "coordinators":[["name","number"],["name","number"]],
-            "details":["venue","date","time"],
-            "src":"/assets/img/events/Hexcore/Hex.png"
+            "coordinators":[["Sai Shiva G","9150471921"],["Janardhan D","8110804227"]],
+            "details":["TBD","12 February 2025","11.00am-3.00pm"],
+            "src":"/assets/img/events/Hexcore/GAME_MAKER.jpg"
         },
         {
             "id":"2",
-            "name":"event",
+            "name":"Human Compiler",
             "title":"title",
-            "desc":"desc",
-            "link":"link",
+            "desc":"Test your logic by guessing code outputs and writing them down. Problems range from easy to hard with strict time constraints.",
             "rules":[
-                "All participants must register before the event starts.",
-                "All participants must register before the event starts."
+                "Teams will be provided with code snippets; they must predict the output or identify errors.",
+                "Solutions must be written clearly and submitted within the given time.",
+                "No compilers, phones, or external devices are allowed.",
+                "Teams are not allowed to discuss or share answers with others during the event.",
+                "Each problem must be completed before moving to the next. ",
+                "Any team caught violating the rules will be immediately disqualified."
             ],
-            "coordinators":[["name","number"],["name","number"]],
-            "details":["venue","date","time"],
-            "src":"/assets/img/events/Hexcore/Hex.png"
+            "coordinators":[["Devisha Agarwal","7870557830"],["Sarthak Agarwal","8299426750"]],
+            "details":["TBD","12 February 2025","11.00am - 3.00pm"],
+            "src":"/assets/img/events/Hexcore/HUMAN_COMPILER.jpg"
         },
         {
             "id":"3",
-            "name":"event",
-            "title":"title",
-            "desc":"desc",
-            "link":"link",
-            "rules":[
-                "All participants must register before the event starts.",
-                "All participants must register before the event starts."
+            "name":"HexLogic",
+            "title":"Code in chaos",
+            "desc":"Solve problems using a custom Arcane-inspired programming language. Documentation is provided to guide you through.",
+            "rules":[               
+                "Teams must use the provided Arcane-inspired programming language for all solutions.",
+                "Documentation will be shared at the start of the event; external resources are strictly prohibited.",
+                "Problems will have time constraints for completion.",
+                "All code must be written and executed in the provided environment. ",
+                "Teams must adhere to the provided syntax and rules in the documentation.",
+                "Any form of misconduct or communication with other teams will result in disqualification."
             ],
-            "coordinators":[["name","number"],["name","number"]],
-            "details":["venue","date","time"],
-            "src":"/assets/img/events/Hexcore/Hex.png"
+            "coordinators":[["Arjun kaymala","9176752570"],["Caroline Vineeta S.L","7338999541"]],
+            "details":["TBD","12 February 2025","10.00am - 3.00pm"],
+            "src":"/assets/img/events/Hexcore/HEX_LOGIC.jpg"
         }
 
     ],

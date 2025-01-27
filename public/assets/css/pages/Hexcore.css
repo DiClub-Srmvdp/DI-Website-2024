@@ -1,3 +1,12 @@
+@font-face{
+    font-family: Arcane;
+    src: url(/assets/webfonts/Arcane-9.ttf);
+}
+
+.font-Arcane {
+    font-family: Arcane , sans-serif;
+}
+
 .HS-main{
     background: url(/assets/img/events/Hexcore/Hex.png) center/cover no-repeat fixed;
     height: 100vh;
@@ -19,6 +28,12 @@
     transform: scale(1.1);
 }
 
-@media only screen and (min-width: 600px){
+.w-pst{
+    width: 60%;
+}
 
+@media (max-width: 768px) {
+    .w-pst {
+        width: 80%;
+    }
 }
