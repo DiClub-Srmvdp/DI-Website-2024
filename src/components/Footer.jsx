@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="main-footer mt-auto pb-3">
+    <footer className="main-footer mt-auto p-3">
       <div className="container-fluid mt-4">
         <div className="row">
           <div className="col-12 col-lg-3 px-0 px-lg-5">

@@ -13,7 +13,7 @@
 @import url(pages/projects.css);
 @import url(pages/journey.css);
 @import url(pages/arcade.css);
-@import url(pages/spark.css);
+@import url(pages/Hexcore.css);
 
 @font-face {
     font-family: Inter;
@@ -30,6 +30,7 @@
     src: url(../webfonts/Classic.ttf);
 }
 
+
 body{
     color: #fff;
     background-color: #000;
@@ -41,3 +42,22 @@ body{
 .page-wrapper{
     scroll-snap-type: y mandatory;
 }
+
+html {
+  scrollbar-face-color: #646464;
+  scrollbar-base-color: #646464;
+  scrollbar-3dlight-color: #646464;
+  scrollbar-highlight-color: #646464;
+  scrollbar-track-color: #000;
+  scrollbar-arrow-color: #000;
+  scrollbar-shadow-color: #646464;
+  scrollbar-dark-shadow-color: #646464;
+}
+
+::-webkit-scrollbar { width: 9px; height: 1px;}
+::-webkit-scrollbar-button {  background-color: #424242; }
+::-webkit-scrollbar-track {  background-color: #6464642d;}
+::-webkit-scrollbar-track-piece { background-color: #000;}
+::-webkit-scrollbar-thumb { height: 50px; background-color: #252424; border-radius: 3px;}
+::-webkit-scrollbar-corner { background-color: #4c4b4b;}
+::-webkit-resizer { background-color: #666;}

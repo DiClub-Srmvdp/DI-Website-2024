@@ -1,0 +1,96 @@
+{
+    "evnts": [
+
+        {
+            "id":"0",
+            "name":"RuneCode",
+            "title":"title",
+            "desc":"A DSA speed-run competition where participants solve easy, medium, and hard problems within a time limit. Speed and accuracy are key",
+            "rules":[
+                "Teams will solve data structure and algorithm (DSA) problems in increasing difficulty levels: easy, medium, and hard",
+                "All problems must be solved within the specified time for each round.",
+                "Phones and external devices are strictly prohibited.",
+                "Teams must work only in the provided coding environment.",
+                "Collaboration with other teams or individuals outside the event is not allowed",
+                "Teams that violate rules or time constraints will face immediate elimination."
+            ],
+            "coordinators":[["Vibu Sahu","9340089039"],["Kunal Meshram","9755365169"]],
+            "details":["TBD","12 February 2025","10.30am - 3.00pm"],
+            "src":"/assets/img/events/Hexcore/RUNE_CODE.jpg"
+        },
+
+        {
+            "id":"1",
+            "name":"Game Maker",
+            "title":"title",
+            "desc":"Create games using frameworks like Scratch, GameMaker, JavaScript, or Pygame. Both no-code and coding approaches are allowed!",
+            "rules":[
+                "Teams can create games using Scratch, GameMaker, JavaScript, or Pygame.",
+                "Both no-code and coding approaches are allowed, but the framework must be chosen at the start of the event. ",
+                "Internet access will be restricted, and teams must use provided resources only.",
+                "Teams must submit their completed game within the allotted time.",
+                "Pre-made assets or code are not permitted unless explicitly provided by the organizers.",
+                "Judging will be based solely on the submitted game created during the event. "
+            ],
+            "coordinators":[["Sai Shiva G","9150471921"],["Janardhan D","8110804227"]],
+            "details":["TBD","12 February 2025","11.00am-3.00pm"],
+            "src":"/assets/img/events/Hexcore/GAME_MAKER.jpg"
+        },
+        {
+            "id":"2",
+            "name":"Human Compiler",
+            "title":"title",
+            "desc":"Test your logic by guessing code outputs and writing them down. Problems range from easy to hard with strict time constraints.",
+            "rules":[
+                "Teams will be provided with code snippets; they must predict the output or identify errors.",
+                "Solutions must be written clearly and submitted within the given time.",
+                "No compilers, phones, or external devices are allowed.",
+                "Teams are not allowed to discuss or share answers with others during the event.",
+                "Each problem must be completed before moving to the next. ",
+                "Any team caught violating the rules will be immediately disqualified."
+            ],
+            "coordinators":[["Devisha Agarwal","7870557830"],["Sarthak Agarwal","8299426750"]],
+            "details":["TBD","12 February 2025","11.00am - 3.00pm"],
+            "src":"/assets/img/events/Hexcore/HUMAN_COMPILER.jpg"
+        },
+        {
+            "id":"3",
+            "name":"HexLogic",
+            "title":"Code in chaos",
+            "desc":"Solve problems using a custom Arcane-inspired programming language. Documentation is provided to guide you through.",
+            "rules":[               
+                "Teams must use the provided Arcane-inspired programming language for all solutions.",
+                "Documentation will be shared at the start of the event; external resources are strictly prohibited.",
+                "Problems will have time constraints for completion.",
+                "All code must be written and executed in the provided environment. ",
+                "Teams must adhere to the provided syntax and rules in the documentation.",
+                "Any form of misconduct or communication with other teams will result in disqualification."
+            ],
+            "coordinators":[["Arjun kaymala","9176752570"],["Caroline Vineeta S.L","7338999541"]],
+            "details":["TBD","12 February 2025","10.00am - 3.00pm"],
+            "src":"/assets/img/events/Hexcore/HEX_LOGIC.jpg"
+        }
+
+    ],
+
+    "guests":[
+        {
+            "id":"1",
+            "head":"Mr. Yahya Rasheed",
+            "desc":"Global Head - L&D,Workforce Transformation,HCLTech",
+            "src":"/assets/img/events/Hexcore/g1.png"
+        },
+        {
+            "id":"2",
+            "head":"Ms. Mini Mishra",
+            "desc":"Associate Director /Operations Leader,NielsenIQ",
+            "src":"/assets/img/events/Hexcore/g2.jpg"
+        },
+        {
+            "id":"3",
+            "head":"Ms. Joyce R. Amirtharaj",
+            "desc":"Senior Director (IT) National Informatics Centre, chennai",
+            "src":"/assets/img/events/Hexcore/g3.jpg"
+        }
+    ]
+}

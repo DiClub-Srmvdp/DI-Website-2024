@@ -1,0 +1,39 @@
+@font-face{
+    font-family: Arcane;
+    src: url(/assets/webfonts/Arcane-9.ttf);
+}
+
+.font-Arcane {
+    font-family: Arcane , sans-serif;
+}
+
+.HS-main{
+    background: url(/assets/img/events/Hexcore/Hex.png) center/cover no-repeat fixed;
+    height: 100vh;
+}
+.HS-events{
+    background: url(/assets/img/events/Hexcore/Hex-2.png) center/cover no-repeat fixed rgba(0, 0, 0, 0.323);
+    background-blend-mode: darken;
+    
+}
+.card{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.w-pst{
+    width: 60%;
+}
+
+@media (max-width: 768px) {
+    .w-pst {
+        width: 80%;
+    }
+}
