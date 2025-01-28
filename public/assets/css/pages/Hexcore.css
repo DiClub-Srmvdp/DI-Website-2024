@@ -32,6 +32,16 @@
     width: 60%;
 }
 
+.w-flag{
+    width: 18%;
+    z-index:20;
+    transition: all .3s ease-in-out;
+}
+
+.w-flag:hover{
+    transform: scale(1.2);
+}
+
 .HS_tit{
     font-size: 8rem;
     letter-spacing: 2px;
@@ -49,4 +59,8 @@
     .HS_p{
         font-size: 14px;
     }
+    .w-flag{
+        width:37%
+    }
+    
 }
