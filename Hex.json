@@ -4,7 +4,7 @@
         {
             "id":"0",
             "name":"RuneCode",
-            "title":"title",
+            "title":"The Ultimate Speedrun",
             "desc":"A DSA speed-run competition where participants solve easy, medium, and hard problems within a time limit. Speed and accuracy are key",
             "rules":[
                 "Teams will solve data structure and algorithm (DSA) problems in increasing difficulty levels: easy, medium, and hard",
@@ -22,7 +22,7 @@
         {
             "id":"1",
             "name":"Game Maker",
-            "title":"title",
+            "title":"Hideo Kojima Simulator",
             "desc":"Create games using frameworks like Scratch, GameMaker, JavaScript, or Pygame. Both no-code and coding approaches are allowed!",
             "rules":[
                 "Teams can create games using Scratch, GameMaker, JavaScript, or Pygame.",
@@ -39,7 +39,7 @@
         {
             "id":"2",
             "name":"Human Compiler",
-            "title":"title",
+            "title":"Unleash The Output",
             "desc":"Test your logic by guessing code outputs and writing them down. Problems range from easy to hard with strict time constraints.",
             "rules":[
                 "Teams will be provided with code snippets; they must predict the output or identify errors.",
@@ -56,7 +56,7 @@
         {
             "id":"3",
             "name":"HexLogic",
-            "title":"Code in chaos",
+            "title":"Code In Chaos",
             "desc":"Solve problems using a custom Arcane-inspired programming language. Documentation is provided to guide you through.",
             "rules":[               
                 "Teams must use the provided Arcane-inspired programming language for all solutions.",
@@ -69,7 +69,103 @@
             "coordinators":[["Arjun kaymala","9176752570"],["Caroline Vineeta S.L","7338999541"]],
             "details":["TBD","12 February 2025","10.00am - 3.00pm"],
             "src":"/assets/img/events/Hexcore/HEX_LOGIC.jpg"
-        }
+        },
+        {
+            "id": "4",
+            "name": "Red Light Green Light",
+            "title": "Green Means Go!",
+            "desc": "Join us for an exciting and challenging event inspired by the iconic game from the popular series Squid Game. In Red Light Green Light, teams will compete in this thrilling race, where coordination, speed, and strategy are key to success.",
+            "rules": [
+              "Teams consist of 2 members, with their legs tied together in a 3-legged race style.",
+              "Participants will start at the line and race toward the finish when 'Green Light' is announced.",
+              "On hearing 'Red Light,' teams must freeze in place immediately.",
+              "Failure to freeze results in elimination.",
+              "Teams that reach the finish line without being eliminated progress to the next level.",
+              "The ultimate goal is to claim victory by completing all levels."
+            ],
+            "coordinators": [
+              ["Joshua Haniel", "9940263285"],
+              ["Athish", "9500476719"]
+            ],
+            "details": [
+              "DW308",
+              "12 February 2025",
+              "11:00 AM - 3:00 PM"
+            ],
+            "src": "/assets/img/events/Hexcore/RED_LGHT.jpg"
+        },         
+        {
+            "id": "5",
+            "name": "Heads Up",
+            "title": "A Game of Quick Thinking and Teamwork",
+            "desc": "Get ready for a fun and interactive game of Heads Up, where quick thinking and teamwork are essential! In this event, teams will compete in three exciting categories, putting their creativity and communication skills to the test.",
+            "rules": [
+              "Each team has 2 members; one holds the phone displaying a word on their forehead.",
+              "The other teammate gives one-word clues to help guess the word.",
+              "Gestures or sounds are not allowed; only verbal clues can be given.",
+              "Each round lasts for 2 minutes, and teams guess as many words as possible.",
+              "Three categories are announced at the start of the event.",
+              "Top 5 teams with the highest scores compete in the final round."
+            ],
+            "coordinators": [
+              ["Jalanika R.R", "9087299370"],
+              ["Abhishek Singh", "8109603605"]
+            ],
+            "details": [
+              "CW303",
+              "12 February 2025",
+              "11:00 AM - 3:00 PM"
+            ],
+            "src": "/assets/img/events/Hexcore/HEADS_UP.jpg"
+        },
+        {
+            "id": "6",
+            "name": "Arcane Adrift",
+            "title": "A Hilarious Sci-Fi Shipwreck Adventure",
+            "desc": "Get ready to dive into a hilarious and thrilling shipwreck adventure with a sci-fi twist! In Arcane Adrift, teams of two will find themselves stranded in a mysterious arcane spaceship, battling it out in a comedic showdown for the last parachute.",
+            "rules": [
+              "Teams of 2 perform as a comedic duo in a roleplay scenario.",
+              "Participants face creative and entertaining challenges.",
+              "The goal is to outwit and outshine opponents with teamwork and humor.",
+              "A mix of sci-fi adventure and comedy keeps the audience engaged.",
+              "Creativity, humor, and teamwork are key judging criteria.",
+              "The most entertaining team claims the parachute and wins the event."
+            ],
+            "coordinators": [
+              ["Vaasavi", "6382941735"],
+              ["Samiksha", "8015033395"]
+            ],
+            "details": [
+              "CW304",
+              "12 February 2025",
+              "11:00 AM - 3:00 PM"
+            ],
+            "src": "/assets/img/events/Hexcore/ARCANE_ADRIFT.jpg"
+        },                 
+        {
+            "id": "7",
+            "name": "IPL Auction",
+            "title": "Create Your Ultimate IPL Team",
+            "desc": "Step into the thrilling world of cricket strategy and team building with IPL Auction! In this high-energy event, participants will take on the role of team owners and showcase their analytical and decision-making skills to create the ultimate IPL team.",
+            "rules": [
+              "Teams of 2 are later paired with another team to form a larger group.",
+              "A fixed budget is provided at the start of the auction.",
+              "Players are auctioned, and teams bid strategically to form a balanced squad.",
+              "Teams focus on acquiring batsmen, bowlers, and all-rounders.",
+              "Scoring depends on squad balance, creativity, and adherence to rules.",
+              "The best-performing team with innovative strategies wins the event."
+            ],
+            "coordinators": [
+              ["Ashwath M.", "9345655899"],
+              ["Vignesh Murali", "9363683814"]
+            ],
+            "details": [
+              "Auditorium",
+              "12 February 2025",
+              "11:00 AM - 3:00 PM"
+            ],
+            "src": "/assets/img/events/Hexcore/IPL_AUCTION.jpg"
+          }         
 
     ],
 

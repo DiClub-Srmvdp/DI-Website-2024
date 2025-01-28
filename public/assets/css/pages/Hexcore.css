@@ -32,8 +32,21 @@
     width: 60%;
 }
 
+.HS_tit{
+    font-size: 8rem;
+    letter-spacing: 2px;
+    margin-bottom: -6px;
+}
+
+
 @media (max-width: 768px) {
     .w-pst {
         width: 80%;
+    }
+    .HS_tit{
+        font-size: 4rem;
+    }
+    .HS_p{
+        font-size: 14px;
     }
 }

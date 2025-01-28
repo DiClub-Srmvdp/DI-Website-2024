@@ -4,17 +4,16 @@ import { Link } from "react-router-dom";
 
 const Card = (props) => {
   return (
-    <Link to={`/Hexcore/${props.id}`} style={{textDecoration:'none'}}>
+    <Link to={`/Hexcore/${props.id}`} style={{ textDecoration: "none" }}>
       <div
         className="card shadow-lg cursor-pointer d-flex justify-content-center align-items-center"
         style={{
           width: "17rem",
           height: "24rem",
           backgroundImage: `url( ${props.src} )`,
-          backgroundSize:'cover'
+          backgroundSize: "cover",
         }}
-      >
-      </div>
+      ></div>
     </Link>
   );
 };
@@ -34,7 +33,11 @@ const Gcard = ({ src, head, desc }) => {
       />
       <h2
         className="fw-bold pt-3 fs-4 font-Arcane text-center"
-        style={{ fontSize: "3rem",letterSpacing:'2px',textTransform:"lowercase" }}
+        style={{
+          fontSize: "3rem",
+          letterSpacing: "2px",
+          textTransform: "lowercase",
+        }}
       >
         {head}
       </h2>
@@ -56,15 +59,9 @@ const Hexcore = () => {
           className=" p-3 HS-wrap d-flex flex-column align-items-center justify-content-center w-100 h-100"
           style={{ backdropFilter: "blur(2px)" }}
         >
-          <h1
-            className="fw-semibold font-Arcane"
-            style={{ fontSize: "7em", letterSpacing: "4px" }}
-          >
-            HEXCORE
-          </h1>
-          <p className="fw-small fs-6">
-            m is not simply random text. It has roots in a piece of classical of
-            Good and Evil by Cicero, written in 45 BC.
+          <h1 className="HS_tit fw-semibold font-Arcane p-1 mx-3">HEXCORE</h1>
+          <p className="HS_p fw-small text-center">
+            8 Events 32 Survivors 4 Factions 1 Victor Choose Your Destiny.
           </p>
           <a href="https://forms.gle/mDC4NzXgkFirUMCT7">
             <button
@@ -79,7 +76,6 @@ const Hexcore = () => {
               REGISTER
             </button>
           </a>
-
         </div>
       </div>
 
@@ -93,21 +89,40 @@ const Hexcore = () => {
           </h1>
         </div>
 
-        <div className="wrapper w-100 h-100 p-5 ">
-          <h1 className="p-3 font-Arcane" style={{fontSize:'3rem'}}> NON TECH</h1>
+        <div className="wrapper w-100 h-100  ">
+          <h1 className="p-3 font-Arcane" style={{ fontSize: "3rem" }}>
+            TECH
+          </h1>
           <div className="sec d-flex justify-content-around align-items-center flex-wrap gap-5">
-            {evnts.map((evnt) => (
-              <Card key={evnt.id} id={evnt.id} name={evnt.name} src={evnt.src} />
-            ))}
+            {evnts.map(
+              (evnt) =>
+                evnt.id < 4 && (
+                  <Card
+                    key={evnt.id}
+                    id={evnt.id}
+                    name={evnt.name}
+                    src={evnt.src}
+                  />
+                )
+            )}
           </div>
 
-          {/* <h1 className=" mt-5 p-3 font-Arcane" style={{fontSize:'3rem'}} > TECH</h1>
+          <h1 className=" mt-5 p-3 font-Arcane" style={{ fontSize: "3rem" }}>
+            NON TECH
+          </h1>
           <div className="sec d-flex justify-content-around align-items-center flex-wrap gap-5">
-            {evnts.map((evnt) => (
-              <Card key={evnt.id} id={evnt.id} name={evnt.name} src={evnt.src} />
-            ))}
-          </div> */}
-          
+            {evnts.map(
+              (evnt) =>
+                evnt.id > 3 && (
+                  <Card
+                    key={evnt.id}
+                    id={evnt.id}
+                    name={evnt.name}
+                    src={evnt.src}
+                  />
+                )
+            )}
+          </div>
         </div>
       </div>
 
