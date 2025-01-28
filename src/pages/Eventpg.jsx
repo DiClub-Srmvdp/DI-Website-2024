@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { evnts } from "../../Hex.json";
 import { useParams } from "react-router-dom";
 
 const Eventpg = () => {
   const { id } = useParams();
   const evnt = evnts[id];
+
+  useEffect(()=>{
+    window.scrollTo(0, 0);
+  },[])
 
   return (
     <>
@@ -13,10 +17,10 @@ const Eventpg = () => {
         style={{ width: "100vw" }}
       >
         <div
-          className="ev-lft col-12 col-md-6 mb-5 p-5 font-Arcane"
+          className="ev-lft col-12 col-md-6 mb-5 p-4 mt-3 font-Arcane"
           style={{ letterSpacing: "1px" }}
         >
-          <h1 style={{ fontSize: "5rem" }}>{evnt.name}</h1>
+          <h1 style={{ fontSize: "4rem" }}>{evnt.name}</h1>
           <h2>{evnt.title}</h2>
           <p className="w-70 fw-light">{evnt.desc}</p>
           <a href="https://forms.gle/mDC4NzXgkFirUMCT7">
