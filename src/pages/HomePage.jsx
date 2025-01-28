@@ -1,10 +1,12 @@
 import React from "react";
+import Flag from '../components/Flag';
 
 export default function HomePage() {
   return (
     <main className="page-wrapper">
       <section className="di-home-banner">
-        <div className="di-home-banner-content d-flex align-items-center">
+        <div className="di-home-banner-content d-flex align-items-center position-relative">
+          <Flag />
           <div className="container pt-2 pt-lg-5">
             <div className="di-home-banner-moto pt-2 pt-lg-5">
               <span>I</span>nspire. <span>D</span>esign. <span>I</span>nnovate.

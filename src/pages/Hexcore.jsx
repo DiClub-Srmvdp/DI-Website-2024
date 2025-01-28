@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { evnts, guests } from "../../Hex.json";
 import { Link } from "react-router-dom";
 
@@ -35,8 +35,7 @@ const Gcard = ({ src, head, desc }) => {
         className="fw-bold pt-3 fs-4 font-Arcane text-center"
         style={{
           fontSize: "3rem",
-          letterSpacing: "2px",
-          textTransform: "lowercase",
+          letterSpacing: "2px"
         }}
       >
         {head}
@@ -52,6 +51,11 @@ const Gcard = ({ src, head, desc }) => {
 };
 
 const Hexcore = () => {
+  
+  useEffect(()=>{
+    window.scrollTo(0, 0);
+  },[])
+  
   return (
     <div className="HS_page">
       <div className=" HS-main container-fluid p-5">
