@@ -7,9 +7,34 @@
     font-family: Arcane , sans-serif;
 }
 
+.txt_grad{
+    background: linear-gradient(180deg, rgba(199,189,95,1) 0%, rgba(231,224,155,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+.Hex_btn{
+    background: #141415b8;
+    text-decoration: none;
+    border-radius: 40px;
+    color: #d4cd8b;
+    border: 2px solid #ada453;
+    width: 160px;
+    height: 50px;
+    transition: all .3s ease-in-out;
+}
+.Hex_btn:hover{
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 .HS-main{
     background: url(/assets/img/events/Hexcore/Hex.png) center/cover no-repeat fixed;
     height: 100vh;
+}
+
+.lgo{
+    width: 55%;
 }
 .HS-events{
     background: url(/assets/img/events/Hexcore/Hex-2.png) center/cover no-repeat fixed rgba(0, 0, 0, 0.323);
@@ -38,18 +63,33 @@
     transition: all .3s ease-in-out;
 }
 
-.w-flag:hover{
-    transform: scale(1.2);
-}
-
 .HS_tit{
     font-size: 8rem;
     letter-spacing: 2px;
     margin-bottom: -6px;
 }
 
+.gst {
+    background: 
+        linear-gradient(180deg, rgba(0, 0, 0, 0.756) 0%, rgba(0, 0, 0, 0) 100%), 
+        rgba(59, 59, 59, 0.348);
+    background-blend-mode: multiply;
+}
+
+
+.evnt_sec1{
+    background-blend-mode: multiply;
+}
+
+.rls li img{
+    width: 4%;
+    padding-right: 5px;
+}
 
 @media (max-width: 768px) {
+    .lgo{
+        width: 100%;
+    }
     .w-pst {
         width: 80%;
     }
@@ -61,6 +101,9 @@
     }
     .w-flag{
         width:37%
+    }
+    .rls li img{
+        width: 10%;
     }
     
 }
