@@ -136,6 +136,17 @@ const heads = [
     title: "Joint Head of Resource Management",
     imgSrc: "/assets/img/team/vigneshmurali.jpeg",
   },
+  {
+    name: "Vijay T S",
+    title: "Head of Visual Media",
+    description: "Bringing stories to life, one frame at a time.",
+    imgSrc: "/assets/img/team/vijay.jpeg",
+  },
+  {
+    name:"G P Deepti Varsha",
+    title: "Joint Head of Visual Media",
+    imgSrc: "/assets/img/team/DeeptiVarsha.jpeg",
+  }
 ];
 
 export default function TeamPage() {
