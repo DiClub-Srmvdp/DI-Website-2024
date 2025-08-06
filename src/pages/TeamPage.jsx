@@ -66,7 +66,7 @@ const heads = [
   imgSrc: "/assets/img/team/SaranyaPurushothaman.jpeg",
   },
   {
-    name: "M Jai Aakash",
+    name: "M Jaiaakash",
     title: "Joint Head of Design",
     imgSrc: "/assets/img/team/JaiAakash.jpeg",
   },
