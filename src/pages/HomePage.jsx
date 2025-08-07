@@ -49,7 +49,7 @@ export default function HomePage() {
         <div className="container p-3 p-lg-5 text-center">
           <p className="register-text">Ready to embark on an innovative journey? Click here to be part of our design voyage.</p>
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSfl5g_Xpx5kfA4ImczDwFZGPdQkBRzpS1JNucdQUi47u71HxA/viewform"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSc8E36crEGYuFlm-jM5gmZx8c5Rs-JNhe_o_gJBHoDCRyQksw/viewform?usp=header"
             className="btn btn-light register-btn my-3"
             target="_blank"
           >
