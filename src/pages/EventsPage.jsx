@@ -13,42 +13,42 @@ export default function EventsPage() {
         <div className="container-fluid">
           {/* Hexcore Event Section */}
           <div className="row">
-            <div className="col-12 p-0">
+            <div className="col-12 p-0 ">
               <div
                 id="carouselHexcore"
                 className="carousel slide"
                 data-bs-ride="carousel"
               >
-                <div className="carousel-inner">
+                <div className="carousel-inner ">
                   <div
                     className="carousel-item active di-carousel-item"
                     style={{
                       backgroundImage:
-                        "url('public/assets/img/events/hexcore/img1.jpeg')",
-                      height: "600px",
-                      width: "90%",
-                      backgroundSize: "cover",
-                      backgroundPosition: "center",
-                      margin: "0 auto", // centers the div
-                      borderRadius: "10px",
-                      marginLeft: "5%",
-                    }}
-                  ></div>
-                  <div
-                    className="carousel-item di-carousel-item"
-                    style={{
-                      backgroundImage:
-                        "url('/assets/img/events/hexcore/2.jpg')",
+                        "url('public/assets/img/events/Hexcore/banner5.JPG')",
                       height: "500px",
                       backgroundSize: "cover",
                       backgroundPosition: "center",
+                      backgroundRepeat: "no-repeat",
+                      width: "100%",
                     }}
                   ></div>
                   <div
                     className="carousel-item di-carousel-item"
                     style={{
                       backgroundImage:
-                        "url('/assets/img/events/hexcore/3.jpg')",
+                        "url('/assets/img/events/Hexcore/banner2.JPG')",
+                      height: "500px",
+                      backgroundSize: "cover",
+                      backgroundPosition: "center",
+                      backgroundRepeat: "no-repeat",
+                      width: "100%",
+                    }}
+                  ></div>
+                  <div
+                    className="carousel-item di-carousel-item"
+                    style={{
+                      backgroundImage:
+                        "url('/assets/img/events/Hexcore/banner3.JPG')",
                       height: "500px",
                       backgroundSize: "cover",
                       backgroundPosition: "center",
@@ -202,7 +202,14 @@ export default function EventsPage() {
                       className="carousel-item di-carousel-item active"
                       style={{
                         backgroundImage:
-                          "url('/assets/img/events/codeathon.jpg')",
+                          "url('/assets/img/events/codathon/codeathon.jpg')",
+                      }}
+                    ></div>
+                    <div
+                      className="carousel-item di-carousel-item"
+                      style={{
+                        backgroundImage:
+                          "url('/assets/img/events/codathon/img2.JPG')", // <-- New image
                       }}
                     ></div>
                   </div>
@@ -225,6 +232,7 @@ export default function EventsPage() {
                     <span className="visually-hidden">Next</span>
                   </button>
                 </div>
+
                 <div className="event-content-text p-3">
                   <p>
                     The Codathon at National Hackfest 2023 challenged grades
@@ -254,14 +262,14 @@ export default function EventsPage() {
                       className="carousel-item di-carousel-item active"
                       style={{
                         backgroundImage:
-                          "url('/assets/img/events/hackfest1/Hackfest1-1.jpg')",
+                          "url('/assets/img/events/hackfest/img1.JPG')",
                       }}
                     ></div>
                     <div
                       className="carousel-item di-carousel-item"
                       style={{
                         backgroundImage:
-                          "url('/assets/img/events/hackfest1/Hackfest1-2.jpg')",
+                          "url('/assets/img/events/hackfest/img2.JPG')",
                       }}
                     ></div>
                     {/* Add more images if needed */}
