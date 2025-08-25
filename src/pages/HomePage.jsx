@@ -202,7 +202,7 @@ export default function HomePage() {
 
   {/* 🪄 Floating Glowing Logo */}
   <motion.img
-    src="/assets/img/cup.avif"
+    src="/assets/img/cup.png"
     alt="Triwizard Logo"
     style={{
       width: "100%",
